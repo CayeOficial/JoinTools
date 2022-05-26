@@ -1,0 +1,9 @@
+name: JoinTools
+version: 2.0
+author: CayeOficial
+main: com.cayeoficial.JoinTools
+api-version: 1.13
+
+commands:
+  jtreload:
+    description: Reloads the plugin's configuration file.

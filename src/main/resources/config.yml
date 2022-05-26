@@ -1,0 +1,45 @@
+#####################################################
+#                                                   #
+#                 BY CAYEOFICIAL                    #
+#                                                   #
+#####################################################
+
+#VARIABLES:
+#Player Name = %player_name%
+
+Config:
+  #This setting is for enable/disable the message that will be sent ON THE CHAT to the user that just joined
+  send-message-on-join: true
+  #The message that will sent to player chat when he joins if it's enabled
+  join-message: "&b&lWELCOME &f%player_name% &b&lTO &fYourServer"
+
+Titles:
+  #Enable or disable the title when a player joins, this sounds very professional, I recommend leaving this to true
+  #Don't forget to edit the title/subtitle if you enable this feature!
+  send-title-on-join: true
+  #Message that will be shown as title/subtitle if it's enabled
+  title: "&b&lYourServer"
+  subtitle: "&fWelcome %player_name%!"
+
+Sounds:
+  #This feature plays a sound every time a player join.
+  #IMPORTANT REMINDER: The default sound "ENTITY_EXPERIENCE_ORB_PICKUP" only works on +1.9!
+  #If your server is running 1.8, edit this sound to another (https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html)
+  play-sound-on-join: false
+  sound-name: ENTITY_EXPERIENCE_ORB_PICKUP
+
+Commands:
+  #This feature executes a command as console every time a player joins
+  execute-command-on-join: true
+  #The command to be executed if it's enabled, you can use %player_name% as player name.
+  #IMPORTANT! Don't include /
+  command-to-execute: "say %player_name% has joined the server!"
+
+Messages:
+  #Message shown when the plugin is reloaded using /jtreload command
+  reload-message: "&aThe plugin has been reloaded!"
+  #Message shown when a player tries to perform an action without permission
+  no-permission-error: "&cYou are missing the permission &njointools.admin&c to perform this action."
+
+  #If you are experiencing troubles on configuration or errors, please contact me via discord: zCayeOficial#0001
+  #Si tienes problemas con la configuración o errores (bugs), habla conmigo por discord: zCayeOficial#0001
