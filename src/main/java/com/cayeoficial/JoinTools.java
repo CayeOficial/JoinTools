@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.io.File;
 import java.util.Objects;
 
-public final class JoinTools extends JavaPlugin {
+public final class JoinTools extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
        getLogger().info("§aInitializing Join-Tools");
